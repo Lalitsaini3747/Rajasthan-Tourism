@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text sphere</title>
+    <!-- Link to css -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Link to boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link to font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <header class="header">
+
+        <div class="fas fa-bars" id="menu-bar"></div>
+
+        <a href="#Home" class="logo"><span>RANGILO </span>RAJASTHAN</a>
+
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Service">Service</a>
+            <a href="#Packages">Packages</a>
+            <a href="#Book">Book</a>
+            <a href="#Review">Review</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" name="" id="search-bar" placeholder="Search Here....">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- login form container -->
+    <div class="login-form-container">
+
+        <i class="fa-solid fa-circle-xmark" id="form-close"></i>
+
+        <form action="##">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter Your Email">
+            <input type="password" class="box" placeholder="Enter Your Password">
+            <input type="submit" value="Login Now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remembre">Remembre me</label>
+            <p>Forget Password <a href="##">Click here</a> </p>
+            <p>Don't have an account <a href="##">Register now</a> </p>
+        </form>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="Home">
+        <div class="content">
+            <h3>Padharo Mahare Desh</h3>
+            <p>Discover Rajasthan with us, adventure awaits</p>
+            <a href="#Gallery" class="btn">Discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="Image/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="Image/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="Image/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="Image/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="Image/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="Image/vid-1.mp4" id="video-slider" loop autoplay></video>
+        </div>
+    </section>
+
+    <!-- Gallary section -->
+    <section class="gallery" id="Gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            
+            <div class="box">
+                <img src="Image/Jaipur1.jpg" alt="Rajasthan">
+                <div class="contant">
+                    <h3>Jaipur</h3>
+                    <p>Beauitful city of Rajasthan</p>
+                    <a href="##" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/Sikar.webp" alt="Rajasthan">
+                <div class="contant">
+                    <h3>Sikar</h3>
+                    <p>Beauitful city of Rajasthan</p>
+                    <a href="##" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/Kota.jpg" alt="Rajasthan">
+                <div class="contant">
+                    <h3>Kota</h3>
+                    <p>Beauitful city of Rajasthan</p>
+                    <a href="##" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/Jodhpur.jpg" alt="Rajasthan">
+                <div class="contant">
+                    <h3>Jodhpur</h3>
+                    <p>Beauitful city of Rajasthan</p>
+                    <a href="##" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/Jaiselmer.jpeg" alt="Rajasthan">
+                <div class="contant">
+                    <h3>Jaiselmer</h3>
+                    <p>Beauitful city of Rajasthan</p>
+                    <a href="##" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/Kumbhalgarh.webp" alt="Rajasthan">
+                <div class="contant">
+                    <h3>Rajsamand</h3>
+                    <p>Beauitful city of Rajasthan</p>
+                    <a href="##" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/Udaipur.jpg" alt="Rajasthan">
+                <div class="contant">
+                    <h3>Udaipur</h3>
+                    <p>Beauitful city of Rajasthan</p>
+                    <a href="##" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/Ajmer.jpeg" alt="Rajasthan">
+                <div class="contant">
+                    <h3>Ajmer</h3>
+                    <p>Beauitful city of Rajasthan</p>
+                    <a href="##" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/Bikaner.jpeg" alt="Rajasthan">
+                <div class="contant">
+                    <h3>Bikaner</h3>
+                    <p>Beauitful city of Rajasthan</p>
+                    <a href="##" class="btn">See more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section class="service" id="Service">
+        <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>r</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>E</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>We provide best hotel for your comfort</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food & Drinks</h3>
+                <p>We provide best hotel for your comfort</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Sefty Guide</h3>
+                <p>We provide best hotel for your comfort</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travel</h3>
+                <p>We provide best hotel for your comfort</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventure</h3>
+                <p>We provide best hotel for your comfort</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around The World</h3>
+                <p>We provide best hotel for your comfort</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages" id="Packages">
+         <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>K</span>
+            <span>A</span>
+            <span>G</span>
+            <span>E</span>
+            <span>S</span>
+         </h1>
+
+         <div class="box-container">
+
+            <div class="box">
+                <div class="imgdiv">
+                <img src="Image/jaipur2.avif" alt="">
+                </div>
+                <div class="contant">
+                    <h3><i class="fas fa-map-marker-alt"></i> Jaipur </h3>
+                    <p>The most beautiful city of Rajasthan</p>
+                    <div class="stars">
+                        <div class="tars1">
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="far fa-star"></div>
+                        </div>
+                        <div class="price">₹- 10,000/- <span>12,000/-</span></div>
+                    </div>
+                    <a href="#Book" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgdiv">
+                    <img src="Image/sikar1.webp" alt="">
+                </div>
+                <div class="contant">
+                    <h3><i class="fas fa-map-marker-alt"></i> Sikar </h3>
+                    <p>A historical city with forts and havelis</p>
+                    <div class="stars">
+                        <div class="tars1">
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="far fa-star"></div>
+                        </div>
+                        <div class="price">₹- 12,000/- <span>14,000/-</span></div>
+                    </div>
+                    <a href="#Book" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgdiv">
+                    <img src="Image/jaiselmer1.jpg" alt="">
+                </div>
+                <div class="contant">
+                    <h3><i class="fas fa-map-marker-alt"></i> Jaiselmer </h3>
+                    <p>The great Thar Desert city.</p>
+                    <div class="stars">
+                        <div class="tars1">
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="far fa-star"></div>
+                        </div>
+                        <div class="price">₹- 20,000/- <span>12,000/-</span></div>
+                    </div>
+                    <a href="#Book" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgdiv">
+                    <img src="Image/kota1.jpg" alt="">
+                </div>
+                <div class="contant">
+                    <h3><i class="fas fa-map-marker-alt"></i> Kota </h3>
+                    <p>palaces, museums, and river front. </p>
+                    <div class="stars">
+                        <div class="tars1">
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="far fa-star"></div>
+                        </div>
+                        <div class="price">₹- 18,000/- <span>20,000/-</span></div>
+                    </div>
+                    <a href="#Book" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgdiv">
+                    <img src="Image/jodhpur1.jpg" alt="">
+                </div>
+                <div class="contant">
+                    <h3><i class="fas fa-map-marker-alt"></i> Jodhpur </h3>
+                    <p>City of forts, palaces, temples, havelis</p>
+                    <div class="stars">
+                        <div class="tars1">
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="far fa-star"></div>
+                        </div>
+                        <div class="price">₹- 22,000/- <span>25,000/-</span></div>
+                    </div>
+                    <a href="#Book" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgdiv">
+                    <img src="Image/bikaner1.jpg" alt="">
+                </div>
+                <div class="contant">
+                    <h3><i class="fas fa-map-marker-alt"></i> Bikaner </h3>
+                    <p>Bikaner is known as the royal city</p>
+                    <div class="stars">
+                        <div class="tars1">
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="fas fa-star"></div>
+                            <div class="far fa-star"></div>
+                        </div>
+                        <div class="price">₹- 14,000/- <span>17,,000/-</span></div>
+                    </div>
+                    <a href="#Book" class="btn">Book now</a>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <!-- Book section -->
+    <section class="book" id="Book">
+
+        <h3 class="heading">
+            <span>B</span>
+            <span>O</span>
+            <span>O</span>
+            <span>K</span>
+            <span class="space"></span>
+            <span>N</span>
+            <span>O</span>
+            <span>W</span>
+        </h3>
+
+        <div class="rows">
+            
+            <div class="image">
+                <img src="Image/Trip (1).gif" alt="">
+            </div>
+
+            <form action="">
+                <div class="input-box">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="Place name">
+                </div>
+                <div class="input-box">
+                    <h3>How many</h3>
+                    <input type="number" placeholder="Number of guests">
+                </div>
+                <div class="input-box">
+                    <h3>Arrivels</h3>
+                    <input type="date">
+                </div>
+                <div class="input-box">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" value="Book now" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Review section -->
+    <section class="review" id="Review">
+        <h1 class="heading">
+            <span>R</span>
+            <span>E</span>
+            <span>V</span>
+            <span>I</span>
+            <span>E</span>
+            <span>W</span>
+        </h1>
+
+        <div class="review-slider">
+
+            <div class="wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="Image/lalit2.png" alt="Lalit saini">
+                        <h3>Lalit saini</h3>
+                        <p>Growing customer expectations. Market-Shaping AI. Self-Optimizing systems. The post-digital age shows no signs of slow down.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="Image/lalit2.png" alt="Lalit saini">
+                        <h3>Lalit saini</h3>
+                        <p>Growing customer expectations. Market-Shaping AI. Self-Optimizing systems. The post-digital age shows no signs of slow down.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="Image/lalit2.png" alt="Lalit saini">
+                        <h3>Lalit saini</h3>
+                        <p>Growing customer expectations. Market-Shaping AI. Self-Optimizing systems. The post-digital age shows no signs of slow down.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="Image/lalit2.png" alt="Lalit saini">
+                        <h3>Lalit saini</h3>
+                        <p>Growing customer expectations. Market-Shaping AI. Self-Optimizing systems. The post-digital age shows no signs of slow down.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="Contact">
+        <h1 class="heading">
+            <span>C</span>
+            <span>O</span>
+            <span>N</span>
+            <span>T</span>
+            <span>A</span>
+            <span>C</span>
+            <span>T</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="Image/contact1.gif" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputbox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="E-mail">
+                </div>
+
+                <div class="inputbox">
+                    <input type="tel" placeholder="Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea name="Massage" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Massage" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p><span>Rangilo Rajasthan</span> website is owned, created and designed by Lalit Saini - the web developer.</p>
+                <a href="##">Sainilalit2751@gmail.com</a>
+                <a href="##">9887374746</a>
+                <p>Ranoli, Sikar - 334205</p>
+            </div>
+            <div class="box">
+                <h3>Branch Loaction</h3>
+                <a href="#">Jaipur</a>
+                <a href="#">Sikar</a>
+                <a href="#">Jodhpur</a>
+                <a href="#">Kota</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#Home">Home</a>
+                <a href="#Gallery">Gallary</a>
+                <a href="#Service">Service</a>
+                <a href="#Packages">Packages</a>
+                <a href="#Book">Book</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="##"><i class='bx bxl-facebook'></i></a>
+                <a href="##"><i class='bx bxl-instagram'></i></a>
+                <a href="##"><i class='bx bxl-linkedin'></i></a>
+                <a href="##"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <h1 class="credit">Created by <span>Lalit Saini</span> | All Rights Reserved! |</h1>
+    </section>
+
+
+    <script src="Logic.js"></script>
+</body>
+</html>
